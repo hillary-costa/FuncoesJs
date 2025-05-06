@@ -61,8 +61,7 @@
   e não tem seu própio this, argument, super ou new.target. Estas expressões de funções são melhor aplicadas para funções
   que não sejam métodos, e elas não podem ser usadas como construtores (construtors).
 - Vantagens:
-  Maior concisão, facilidade de leitura e retorno implícito para funções de uma única linha. Além disso, tem menos
-  propensas e erros.
+  Maior concisão, facilidade de leitura, de escrita e retorno implícito para funções de uma única linha. Além disso, tem menos propensas e erros.
 - Desvantagens:
   Corre o risco de sobrescrever alguma propiedade do objeto window, por que as arrow functions não tem seu tis própio.
 - Exemplos:
